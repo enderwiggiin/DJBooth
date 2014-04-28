@@ -13,17 +13,16 @@ public class BroadcastReceiver {
 
 	    private WifiP2pManager mManager;
 	    private Channel mChannel;
-	    private MyWiFiActivity mActivity;
+	    private MainActivity mActivity;
 
-	    public WiFiDirectBroadcastReceiver(WifiP2pManager manager, Channel channel,
-	            MyWifiActivity activity) {
+	    public BroadcastReceiver(WifiP2pManager manager, Channel channel,
+	            MainActivity activity) {
 	        super();
 	        this.mManager = manager;
 	        this.mChannel = channel;
 	        this.mActivity = activity;
 	    }
 
-	    @Override
 	    public void onReceive(Context context, Intent intent) {
 	        String action = intent.getAction();
 
@@ -38,4 +37,3 @@ public class BroadcastReceiver {
 	        }
 	    }
 	}
-}
