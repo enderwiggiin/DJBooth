@@ -1,4 +1,6 @@
-package com.kyat.testingbooth;
+package com.kyat.DJbooth;
+
+import com.kyat.testingbooth.R;
 
 import android.os.Bundle;
 import android.app.Activity;
