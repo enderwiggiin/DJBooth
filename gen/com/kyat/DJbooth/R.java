@@ -8,7 +8,24 @@
 package com.kyat.DJbooth;
 
 public final class R {
+    public static final class array {
+        /**  Nav Drawer List Item Icons 
+ Keep them in order as the titles are in 
+         */
+        public static final int nav_drawer_icons=0x7f070001;
+        /**  Nav Drawer Menu Items 
+         */
+        public static final int nav_drawer_items=0x7f070000;
+    }
     public static final class attr {
+    }
+    public static final class color {
+        public static final int counter_text_bg=0x7f040004;
+        public static final int counter_text_color=0x7f040005;
+        public static final int list_background=0x7f040001;
+        public static final int list_background_pressed=0x7f040002;
+        public static final int list_divider=0x7f040003;
+        public static final int list_item_title=0x7f040000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -17,25 +34,148 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int counter_bg=0x7f020000;
+        public static final int header_bg=0x7f020001;
+        public static final int ic_account=0x7f020002;
+        public static final int ic_badge_alone=0x7f020003;
+        public static final int ic_badge_cross=0x7f020004;
+        public static final int ic_badge_inprogress=0x7f020005;
+        public static final int ic_badge_monkey=0x7f020006;
+        public static final int ic_badge_punk=0x7f020007;
+        public static final int ic_badge_science=0x7f020008;
+        public static final int ic_badge_share=0x7f020009;
+        public static final int ic_badge_unlocked=0x7f02000a;
+        public static final int ic_badges=0x7f02000b;
+        public static final int ic_drawer=0x7f02000c;
+        public static final int ic_gallery=0x7f02000d;
+        public static final int ic_help=0x7f02000e;
+        public static final int ic_home=0x7f02000f;
+        public static final int ic_import=0x7f020010;
+        public static final int ic_launcher=0x7f020011;
+        public static final int ic_leaderboard=0x7f020012;
+        public static final int ic_planner=0x7f020013;
+        public static final int ic_settings=0x7f020014;
+        public static final int ic_snap=0x7f020015;
+        public static final int ic_snaps=0x7f020016;
+        public static final int ic_user=0x7f020017;
+        public static final int ic_vacancies=0x7f020018;
+        public static final int list_item_bg_normal=0x7f020019;
+        public static final int list_item_bg_pressed=0x7f02001a;
+        public static final int list_selector=0x7f02001b;
+        public static final int rotate30=0x7f02001c;
+        public static final int settings30=0x7f02001d;
+        public static final int textview_bg=0x7f02001e;
+        public static final int wallpaper2=0x7f02001f;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int aButton=0x7f0a0023;
+        public static final int action_settings=0x7f0a0030;
+        public static final int badge1Background=0x7f0a0012;
+        public static final int badge1Flag=0x7f0a0018;
+        public static final int badge1Image=0x7f0a0013;
+        public static final int badge2Background=0x7f0a0009;
+        public static final int badge2Flag=0x7f0a0019;
+        public static final int badge2Image=0x7f0a0014;
+        public static final int badge3Background=0x7f0a000c;
+        public static final int badge3Image=0x7f0a0015;
+        public static final int badge4Background=0x7f0a000e;
+        public static final int badge4Image=0x7f0a0016;
+        public static final int badge5Background=0x7f0a0010;
+        public static final int badge5Image=0x7f0a0017;
+        public static final int badgeLabel1=0x7f0a000b;
+        public static final int badgeLabel2=0x7f0a000a;
+        public static final int badgeLabel3=0x7f0a000d;
+        public static final int badgeLabel4=0x7f0a000f;
+        public static final int badgeLabel5=0x7f0a0011;
+        public static final int btn_config=0x7f0a002a;
+        public static final int btn_rotate=0x7f0a002b;
+        public static final int btn_save=0x7f0a0028;
+        public static final int btn_share=0x7f0a0029;
+        public static final int btn_takephoto=0x7f0a0024;
+        public static final int bugButton=0x7f0a001e;
+        public static final int counter=0x7f0a0005;
+        public static final int drawer_layout=0x7f0a0000;
+        public static final int frame_container=0x7f0a0001;
+        public static final int header=0x7f0a0007;
+        public static final int headerBack=0x7f0a001a;
+        public static final int helpIcon=0x7f0a001d;
+        public static final int icon=0x7f0a0003;
+        public static final int imageView1=0x7f0a001b;
+        public static final int imageViewGallery=0x7f0a002c;
+        public static final int imageViewSnap=0x7f0a002d;
+        public static final int iv_displayphoto=0x7f0a0026;
+        public static final int licenseButton=0x7f0a001f;
+        public static final int list_slidermenu=0x7f0a0002;
+        public static final int newSnapLabel=0x7f0a002f;
+        public static final int openGalleryLabel=0x7f0a002e;
+        public static final int skbarChangeColor=0x7f0a0027;
+        public static final int title=0x7f0a0004;
+        public static final int tv_titleapp=0x7f0a0025;
+        public static final int txtLabel=0x7f0a0006;
+        public static final int txtLabel1=0x7f0a001c;
+        public static final int txtLabel2=0x7f0a0021;
+        public static final int txtLabel3=0x7f0a0020;
+        public static final int txtLabel4=0x7f0a0022;
+        public static final int verticalScrollView=0x7f0a0008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int drawer_list_item=0x7f030001;
+        public static final int fragment_account=0x7f030002;
+        public static final int fragment_badges=0x7f030003;
+        public static final int fragment_help=0x7f030004;
+        public static final int fragment_home=0x7f030005;
+        public static final int fragment_import_snaps=0x7f030006;
+        public static final int fragment_leaderboards=0x7f030007;
+        public static final int fragment_my_snaps=0x7f030008;
+        public static final int fragment_new_snap=0x7f030009;
+        public static final int fragment_planner=0x7f03000a;
+        public static final int fragment_settings=0x7f03000b;
+        public static final int fragment_snap=0x7f03000c;
+        public static final int fragment_vacancies=0x7f03000d;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f060001;
+        /**  Global strings 
+         */
+        public static final int app_name=0x7f060000;
+        /**  Strings for Badges 
+         */
+        public static final int badgeForeverAlone=0x7f06000d;
+        public static final int badgeInvite=0x7f06000f;
+        public static final int badgePunkd=0x7f06000e;
+        public static final int badgeScience=0x7f060011;
+        public static final int badgeWaters=0x7f060010;
+        /**  Strings for Help page 
+         */
+        public static final int bugButton=0x7f060009;
+        public static final int contactEmail=0x7f060004;
+        /**  Content Description 
+         */
+        public static final int desc_list_item_icon=0x7f060005;
+        public static final int drawer_close=0x7f060003;
+        public static final int drawer_open=0x7f060002;
+        /**  Strings for settings page 
+         */
+        public static final int editNameHint=0x7f060012;
+        public static final int helpPageText=0x7f06000a;
+        public static final int termsMessage=0x7f06000c;
+        public static final int termsTitle=0x7f06000b;
+        /**  Strings for Home page 
+         */
+        public static final int textView1=0x7f060006;
+        public static final int textView2=0x7f060007;
+        public static final int textView3=0x7f060008;
+        /**  Strings for the What's New box 
+         */
+        public static final int whatsnew=0x7f060013;
     }
     public static final class style {
         /** 
@@ -59,10 +199,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f080001;
     }
 }

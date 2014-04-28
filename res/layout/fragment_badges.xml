@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/header"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/verticalScrollView"
+    android:scrollbars="none" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	 <TextView
+	     android:id="@+id/badge2Background"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignBottom="@+id/badgeLabel2"
+	     android:layout_marginTop="70dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginLeft="10dp"
+	     android:background="@drawable/textview_bg"
+	     android:gravity="center"
+	     android:padding="10dp"
+	     android:textSize="16sp" />
+	 
+	<TextView
+	    android:id="@+id/badgeLabel2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/badgeLabel1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/textview_bg"
+	    android:gravity="center"
+	    android:padding="10dp"
+	    android:text="@string/badgePunkd"
+	    android:textSize="16sp" />
+	
+	<TextView
+	     android:id="@+id/badge3Background"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignBottom="@+id/badgeLabel3"
+	     android:layout_marginTop="70dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginLeft="10dp"
+	     android:background="@drawable/textview_bg"
+	     android:gravity="center"
+	     android:padding="10dp"
+	     android:textSize="16sp" />
+	
+	<TextView
+	    android:id="@+id/badgeLabel3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/badgeLabel2"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center"
+	    android:padding="10dp"
+   	    android:background="@drawable/textview_bg"
+	    android:text="@string/badgeInvite"
+	    android:textSize="16sp" />
+	
+	<TextView
+	     android:id="@+id/badge4Background"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignBottom="@+id/badgeLabel4"
+	     android:layout_marginTop="70dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginLeft="10dp"
+	     android:background="@drawable/textview_bg"
+	     android:gravity="center"
+	     android:padding="10dp"
+	     android:textSize="16sp" />
+				
+	<TextView
+	    android:id="@+id/badgeLabel4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/badgeLabel3"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center"
+	    android:padding="10dp"
+   	    android:background="@drawable/textview_bg"
+	    android:text="@string/badgeWaters"
+	    android:textSize="16sp" />
+	
+	 <TextView
+	     android:id="@+id/badge5Background"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignBottom="@+id/badgeLabel5"
+	     android:layout_marginTop="70dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginLeft="10dp"
+	     android:background="@drawable/textview_bg"
+	     android:gravity="center"
+	     android:padding="10dp"
+	     android:textSize="16sp" />
+	
+	<TextView
+	    android:id="@+id/badgeLabel5"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/badgeLabel4"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center"
+	    android:background="@drawable/textview_bg"
+	    android:padding="10dp"
+	    android:text="@string/badgeScience"
+	    android:textSize="16sp" />
+	
+	 <TextView
+	     android:id="@+id/badge1Background"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentTop="true"
+	     android:layout_alignBottom="@+id/badgeLabel1"
+	     android:layout_marginTop="70dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginLeft="10dp"
+	     android:background="@drawable/textview_bg"
+	     android:gravity="center"
+	     android:padding="10dp"
+	     android:textSize="16sp" />
+	 
+	 <TextView
+	     android:id="@+id/badgeLabel1"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentTop="true"
+	     android:layout_marginTop="70dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginLeft="10dp"
+	     android:gravity="center"
+	     android:padding="10dp"
+	     android:text="@string/badgeForeverAlone"
+	     android:textSize="16sp" />
+	 
+	 <!--  Badge icons start here -->
+
+	 <ImageView
+	     android:id="@+id/badge1Image"
+	     android:layout_width="40dp"
+	     android:layout_height="40dp"
+	     android:layout_alignRight="@+id/badge1Background"
+	     android:layout_alignBottom="@+id/badge1Background"
+	     android:layout_marginRight="15dp"
+	     android:layout_marginBottom="5dp"
+	     android:src="@drawable/ic_badge_alone" />
+
+	 <ImageView
+	     android:id="@+id/badge2Image"
+	     android:layout_width="40dp"
+	     android:layout_height="40dp"
+	     android:layout_alignRight="@+id/badgeLabel2"
+	     android:layout_alignBottom="@+id/badgeLabel2"
+	     android:layout_marginRight="15dp"
+	     android:layout_marginBottom="5dp"
+	     android:src="@drawable/ic_badge_punk" />
+	 
+	 <ImageView
+	     android:id="@+id/badge3Image"
+	     android:layout_width="40dp"
+	     android:layout_height="40dp"
+	     android:layout_alignRight="@+id/badgeLabel3"
+	     android:layout_alignBottom="@+id/badgeLabel3"
+	     android:layout_marginRight="15dp"
+	     android:layout_marginBottom="5dp"
+	     android:src="@drawable/ic_badge_share" />
+	 
+	 <ImageView
+	     android:id="@+id/badge4Image"
+	     android:layout_width="40dp"
+	     android:layout_height="40dp"
+	     android:layout_alignRight="@+id/badgeLabel4"
+	     android:layout_alignBottom="@+id/badgeLabel4"
+	     android:layout_marginRight="15dp"
+	     android:layout_marginBottom="5dp"
+	     android:src="@drawable/ic_badge_monkey" />
+	 
+	 <ImageView
+	     android:id="@+id/badge5Image"
+	     android:layout_width="40dp"
+	     android:layout_height="40dp"
+	     android:layout_alignRight="@+id/badgeLabel5"
+	     android:layout_alignBottom="@+id/badgeLabel5"
+	     android:layout_marginRight="15dp"
+	     android:layout_marginBottom="5dp"
+	     android:src="@drawable/ic_badge_science" />
+	 
+	 <!-- Unlocked icon flags are below -->
+
+	 <ImageView
+	     android:id="@+id/badge1Flag"
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:layout_alignLeft="@+id/badge1Background"
+	     android:layout_alignTop="@+id/badge1Image"
+	     android:layout_marginLeft="15dp"
+	     android:layout_marginBottom="1dp"
+	     android:src="@drawable/ic_badges" />
+	 
+	 <ImageView
+	     android:id="@+id/badge2Flag"
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:layout_alignLeft="@+id/badge2Background"
+	     android:layout_alignTop="@+id/badge2Image"
+	     android:layout_marginLeft="15dp"
+	     android:layout_marginBottom="1dp"
+	     android:src="@drawable/ic_badges" />
+
+</RelativeLayout>
+</ScrollView>
+
+	<TextView
+	    android:id="@+id/headerBack"
+	    android:layout_width="fill_parent"
+	    android:layout_height="65sp"
+	    android:background="@drawable/header_bg" />
+	
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="My Badges"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/txtLabel"
+        android:layout_toLeftOf="@+id/txtLabel"
+        android:src="@drawable/ic_badges" />
+    
+</RelativeLayout>

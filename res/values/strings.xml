@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">testingbooth</string>
+	
+    <!-- Global strings -->
+    
+    <string name="app_name">DJ Booth</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="contactEmail">kay.ess.emm@gmail.com</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Newsfeed</item>
+        <item >Snaps</item>
+        <item >Planner</item>
+        <item >Leaderboard</item>
+        <item >Badges</item>
+        <item >Vacancies</item>
+        <item >My Account</item>
+        <item >Settings</item>
+        <item >Help</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_snap</item>
+        <item>@drawable/ic_planner</item>
+        <item>@drawable/ic_leaderboard</item>
+        <item>@drawable/ic_badges</item>
+        <item>@drawable/ic_vacancies</item>
+        <item>@drawable/ic_account</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_help</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <!-- Strings for Home page -->
+    <string name="textView1">Hi there! If you can read this, it means that the import has worked successfully! I\'m going to keep typing just to get the scrollview working. Hope you enjoy this app and suck lots of dicks with it.\n\n<b>Posted by:</b> Enderwiggles\n<b>Posted on:</b> 11/01/2014</string>
+    <string name="textView2">You guessed it! More pointless words on a page about nothing! Except I\'ve made this one really long to see what happens when the news pieces are really long and boring. So I guess I\'ll just keep typing away and see what happens. Actually I might just make this little bit just a tad longer so I can scroll more.\n\n<b>Posted by:</b> Enderwiggin\n<b>Posted on:</b> 11/01/2014</string>
+    <string name="textView3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n<b>Posted by:</b> Enderwiggin\n<b>Posted on:</b> 11/01/2014</string>
+    
+    <!-- Strings for Help page -->
+    <string name="bugButton">Send Feedback</string>
+    <string name="helpPageText">This app is built by using your feedback and suggestions. If you\'re having a problem, we\'d really appreciate it if you\'d tell us about it. We\'d also love to hear from you if you have any suggestions to improve this application! \n\nThe sky\'s the limit!</string>
+    <string name="termsTitle">RMT Tools License Information</string>
+    <string name="termsMessage">RMT Tools is available under the Creative Commons Attribution-ShareAlike 4.0 International license.\n\nIn short, you are free to share, copy and redistribute RMT Tools in any medium or format provided, adapt and build upon this application for any purpose, providing the following terms are adhered to:\n\nYou must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\n\nIf you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\n\nYou may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nIf you would like to redistribute this app or build upon it, please get in touch!</string>
+    
+    <!-- Strings for Badges -->
+    <string name="badgeForeverAlone"><div align="center"><b>Forever Alone</b><i>\n\nSpend an entire weekend coding this app.</i>\n\nStatus:<b> Unlocked</b></div></string>
+    <string name="badgePunkd"><div align="center"><b>Punk\'d</b><i>\n\nHave your entire Daft Punk playlist start over 5 times while coding.</i>\n\nStatus:<b> Unlocked</b></div></string>
+    <string name="badgeInvite"><div align="center"><b>Say Hello To My Little Friend</b><i>\n\nInvite one of your work buddies to try RMT Tools!</i>\n\nStatus:<b> In Progress</b></div></string>
+    <string name="badgeWaters"><div align="center"><b>Say Cheese!</b><i>\n\nTake a photo using the RMT Camera.</i>\n\nStatus:<b> Not Started</b></div></string>
+    <string name="badgeScience"><div align="center"><b>Stand Back, I\'m Going To Try Science!</b><i>\n\nVisit the Settings page.</i>\n\nStatus:<b> Not Started</b></div></string>
+    
+    <!-- Strings for settings page -->
+    <string name="editNameHint">Please enter your name</string>
+    
+    <!-- Strings for the What's New box -->
+    <string name="whatsnew">
+        - Added this awesome box.\n
+        - Added license information in the Help section.\n
+        - Now with rounded corners!\n
+        - Added gradients to header\n
+    </string>
 
 </resources>

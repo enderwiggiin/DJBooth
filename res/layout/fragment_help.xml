@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="Foxy lady" />
+    
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="RMT Tools Help"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="@string/helpPageText"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/helpIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/txtLabel1"
+        android:layout_toLeftOf="@+id/txtLabel"
+        android:contentDescription="Help Icon"
+        android:src="@drawable/ic_help" />
+
+    <Button
+        android:id="@+id/bugButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLabel1"
+        android:layout_centerHorizontal="true"
+        android:onClick="reportBug"
+        android:text="@string/bugButton"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/licenseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/helpIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bugButton"
+        android:onClick="showTerms"
+        android:text="Licensing and Terms"
+        android:textSize="16dp" />
+
+</RelativeLayout>
