@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.kyat.testingbooth;
+package com.kyat.DJbooth;
 
 public final class R {
     public static final class attr {
