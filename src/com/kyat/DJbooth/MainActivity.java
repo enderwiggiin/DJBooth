@@ -3,8 +3,6 @@ package com.kyat.DJbooth;
 import info.kyat.DJBooth.adapter.NavDrawerListAdapter;
 import info.kyat.DJBooth.model.NavDrawerItem;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.ArrayList;
 
 import android.app.Activity;
@@ -15,11 +13,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
@@ -27,8 +22,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -326,15 +319,4 @@ public class MainActivity extends Activity {
 		// Pass any configuration change to the drawer toggls
 		mDrawerToggle.onConfigurationChanged(newConfig);
 	}
-
-	//Will be generalised function, so im not going to group it with any of the specific fragment stuff.
-	//Just add Activity result codes here.
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == TAKENPHOTO){
-    		takenSnapFlag = true;
-    		genBMP();
-        }
-
-}
 }

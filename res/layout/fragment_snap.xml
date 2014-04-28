@@ -1,65 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
+    android:layout_height="match_parent">
+    
     <TextView
         android:id="@+id/txtLabel"
-        android:layout_width="wrap_content"
+         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="16dp"
+        android:text="Music Player"/>
+    
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel"
+        android:src="@drawable/ic_leaderboard"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="Snaps"
-        android:textSize="16dp" />
-
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignBottom="@+id/txtLabel"
-        android:layout_marginRight="5dp"
-        android:layout_toLeftOf="@+id/txtLabel"
-        android:src="@drawable/ic_snap" />
-
-    <ImageView
-        android:id="@+id/imageViewGallery"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_centerVertical="true"
-        android:layout_marginBottom="144dp"
-        android:layout_toLeftOf="@+id/txtLabel"
-        android:onClick="openGallery"
-        android:src="@drawable/ic_gallery" />
-
-    <ImageView
-        android:id="@+id/imageViewSnap"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_above="@+id/imageViewGallery"
-        android:layout_marginBottom="54dp"
-        android:layout_toLeftOf="@+id/txtLabel"
-        android:onClick="newSnap"
-        android:src="@drawable/ic_snap" />
-
-    <TextView
-        android:id="@+id/openGalleryLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txtLabel"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="5dp"
-        android:onClick="openGallery"
-        android:text="Open Gallery" />
-
-    <TextView
-        android:id="@+id/newSnapLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageViewSnap"
-        android:layout_marginBottom="18dp"
-        android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/imageViewSnap"
-        android:onClick="newSnap"
-        android:text="Take Snap" />
-
+        android:layout_marginTop="10dp"/>
+    
 </RelativeLayout>
