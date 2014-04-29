@@ -32,3 +32,4 @@ Will update this as necessary....<br />
 - Users have profile page with statistics and achievements.
 - If admin device gets a phone call while playing music over bluetooth, do not break bluetooth connection and keep playing music. (Phone call should not be pushed to speakers.)
 - More user customisable features ie. avatars.
+- HTML based interface, hosted locally. Users connect to local wifi and use the webpage to do stuff. Solves routing issues, but requires a proper local network to werk
