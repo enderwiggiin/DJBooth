@@ -16,6 +16,7 @@ Will update this as necessary....<br />
 ###Tasks
 - ~~Create media player.~~ **DONE**
 - ~~Create basic interface.~~ **DONE**
+- ~~Create track voting system~~ **DONE**
 - Users need a way to create a party or join an existing party.
 - Create communication between client and admin parties without having to manually accept a new connection each time.
 - Client application needs to have sound controls hidden and only display a "Now Playing" screen with metadata and album art.
